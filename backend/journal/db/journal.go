@@ -56,6 +56,7 @@ func InitDB() (*gorm.DB, error) {
 
 	// Reset the DB for development
 	ResetDB(db)
+
 	return db, nil
 }
 
